@@ -44,3 +44,5 @@ scrollBar({config : Config, block : "div.sb"});
 //scrollBar({config : Config, block : "div#content"});
 </code>
 </pre>
+## Demo
+<a href="http://jsfiddle.net/3o50w39t/4/">Demo</a>
