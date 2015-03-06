@@ -4,7 +4,7 @@
 <pre>
 <code>
 &lt;div class = "wrap"&gt; 
-  &lt;div class = "sb"&gt;...&lt;/div&gt;
+  &lt;div class = "sb" id = "content"&gt;...&lt;/div&gt;
 &lt;/div&gt;
 &lt;div class = "wrap"&gt; 
   &lt;div class = "nb"&gt;...&lt;/div&gt;
@@ -30,14 +30,17 @@
 ### JS:
 <pre>
 <code>
+//滚动条样式配置
 var Config = {
-	width : 10,
-	color : "#24211F",
-	bgColor : "#585858",
-	bgBorder : "#393939",
-	arrColor : "#000",
-	stepLength : 50
+	width : 10,         //滚动轴的宽度，默认为10px
+	color : "#24211F",  //滚动条的颜色
+	bgColor : "#585858",//滚动轴的背景颜色
+	bgBorder : "#393939",//边框颜色
+	arrColor : "#000",   //上下箭头的颜色
+	stepLength : 50      //滚动一步的长度
 };
-scrollBar({config : Config1, block : "div.sb"});
+//调用
+scrollBar({config : Config, block : "div.sb"});
+//scrollBar({config : Config, block : "div#content"});
 </code>
 </pre>
