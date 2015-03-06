@@ -32,15 +32,15 @@
 <code>
 //滚动条样式配置
 var Config = {
-	width : 10,         //滚动轴的宽度，默认为10px
-	color : "#24211F",  //滚动条的颜色
-	bgColor : "#585858",//滚动轴的背景颜色
-	bgBorder : "#393939",//边框颜色
-	arrColor : "#000",   //上下箭头的颜色
-	stepLength : 50      //滚动一步的长度
+	width      : 10,         //滚动轴的宽度，默认为10px
+	color      : "#24211F",  //滚动条的颜色
+	bgColor    : "#585858",  //滚动轴的背景颜色
+	bgBorder   : "#393939",  //边框颜色
+	arrColor   : "#000",     //上下箭头的颜色
+	stepLength : 50          //滚动一步的长度
 };
 //调用
-scrollBar({config : Config, block : "div.sb"});
+  scrollBar({config : Config, block : "div.sb"});
 //scrollBar({config : Config, block : "div#content"});
 </code>
 </pre>
