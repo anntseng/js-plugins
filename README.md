@@ -45,4 +45,4 @@ scrollBar({config : Config, block : "div.sb"});
 </code>
 </pre>
 ## Demo
-	<a href="http://jsfiddle.net/3o50w39t/4/">Demo</a>
+<a href="http://jsfiddle.net/3o50w39t/4/" target="_blank">Demo</a>
