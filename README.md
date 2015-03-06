@@ -27,3 +27,17 @@
 }
 </code>
 </pre>
+### JS:
+<pre>
+<code>
+var Config = {
+	width : 10,
+	color : "#24211F",
+	bgColor : "#585858",
+	bgBorder : "#393939",
+	arrColor : "#000",
+	stepLength : 50
+};
+scrollBar({config : Config1, block : "div.sb"});
+</code>
+</pre>
