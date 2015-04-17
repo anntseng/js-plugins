@@ -1,6 +1,6 @@
 /**
 * div模拟滚动条
-* @author zhengyy3@ucweb.com  ## 1152781715@qq.com
+* @author zhengyy3@ucweb.com  ## 000000ann@gmail.com
 * @date 2015/01/22
 * @version 1.0
 * @dependencies none
